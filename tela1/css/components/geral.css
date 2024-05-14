@@ -3,7 +3,9 @@ body{
     background-repeat: repeat;
     letter-spacing: 0.5px;
     font-size: 4rem;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+
+}
+*{
+    color: aliceblue;
 }
 
