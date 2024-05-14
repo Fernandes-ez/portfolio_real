@@ -1,0 +1,9 @@
+body{
+    background-image: url(/tela1/images/background.png);
+    background-repeat: repeat;
+    letter-spacing: 0.5px;
+    font-size: 4rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
