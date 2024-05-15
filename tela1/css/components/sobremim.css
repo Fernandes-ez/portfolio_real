@@ -1,16 +1,17 @@
 .sobre_mim{
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-    margin-top: 10rem;
-    height: 40rem;
-    width: 40%;
+    margin-top: 31rem;
+    height: 50rem;
+    width: 75%;
     font-size: 2rem;
     background-color: black;
-    border-radius: 30%;
-    margin-left: 10rem;
+    border-radius: 20%;
+    margin-left: 10%;
+    border: 10px solid;
+
 }
 .sm_titulo{
     text-align: center;
@@ -23,8 +24,24 @@
     font-size: 3rem;
 }
 .sm_texto{
-
+    margin-top: 1.5rem;
 }
 .tudo_sm{
-margin-top: 10px;
+    
+}
+
+.eu{
+    width: 50%; 
+    height: auto; 
+    margin-top: 43rem;
+    margin-left: 20%;
+
+}
+.eu img{
+    border-radius: 50%;
+    border: 10px solid rgb(174, 0, 255);
+}
+.peloamordedeus{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
 }

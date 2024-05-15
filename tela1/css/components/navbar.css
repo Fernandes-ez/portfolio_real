@@ -2,18 +2,16 @@
     font-size: 2.5rem;
     color: aliceblue;
     width: 100%;
-    height: 100px;
-    position: relative;
+    height: 8rem;
+    position:fixed;
     top: 0;
-    margin-left: 20px;
+
+    background-color: black;
   }
   
   a {
     text-decoration: none;
   }
-.logo ul{
-  color: white;
-}
 
   .navbar ul {
     list-style: none;
@@ -25,13 +23,14 @@
   
   .nav__itens a {
     position: relative;
-    padding: 0 50px;
+    padding:  20px;
     color: rgb(174, 0, 255);
   }
   
   .nav__itens a:after {
     content: "";
-    position: absolute;
+    position: sticky;
+    top:0;
     background-color: rgb(174, 0, 255);
     height: 3px;
     width: 0;
@@ -57,4 +56,5 @@
     height: 150px;
     width: 150px;
     margin-left: 50px;
+    margin-top: -0.5rem;
   }
