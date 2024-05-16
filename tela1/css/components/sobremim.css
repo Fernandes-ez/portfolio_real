@@ -7,7 +7,7 @@
     height: 50rem;
     width: 75%;
     font-size: 2rem;
-    background-color: black;
+    background-color: rgb(62, 49, 80);
     border-radius: 20%;
     margin-left: 10%;
     border: 10px solid;
@@ -33,15 +33,34 @@
 .eu{
     width: 50%; 
     height: auto; 
-    margin-top: 43rem;
-    margin-left: 20%;
+    margin-top: 40rem;
+    margin-left: 10%;
 
 }
 .eu img{
     border-radius: 50%;
-    border: 10px solid rgb(174, 0, 255);
+    border: 10px solid rgb(62, 49, 80);
+    height: 35rem;
+    width: 35rem;
+    transition: transform 0.5s ease;
+}
+.eu:hover img{
+    transform: scale(1.1);
 }
 .peloamordedeus{
     display: grid;
     grid-template-columns:1fr 1fr ;
+}
+.link{
+    transition: transform 0.5s ease;
+    text-decoration-line:underline ;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+}
+.link:hover{
+    transform: scale(1.1);
+}
+.link::after{
+    background-color:rgb(174, 0, 255) ;
 }

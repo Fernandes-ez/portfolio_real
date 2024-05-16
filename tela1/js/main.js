@@ -8,3 +8,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+function typeWritter(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra,i) => {
+        setTimeout(function(){
+            elemento.innerHTML+= letra
+        }, 75*i)
+    })
+};
+    const apresentacao = document.
+    console.log(texto_apr);
+    querySelector(p);
+    typeWritter (texto_apr);
