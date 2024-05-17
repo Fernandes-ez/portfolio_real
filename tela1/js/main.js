@@ -8,17 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", () =>{
+    new TypeIt(".animacao", {
+        speed: 150,
+        loop:true
+         
+    }).type("desenvolvedor.", {delay: 900}).delete(14)
+    .type("universitario." ,{delay:900}).move(-4).pause(1000).delete(1).type("á").move(4)
+    .delete(14).type("programador.", {delay:900}).delete(12)
 
-function typeWritter(elemento){
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = '';
-    textoArray.forEach((letra,i) => {
-        setTimeout(function(){
-            elemento.innerHTML+= letra
-        }, 75*i)
-    })
-};
-    const apresentacao = document.
-    console.log(texto_apr);
-    querySelector(p);
-    typeWritter (texto_apr);
+    .go()
+})
