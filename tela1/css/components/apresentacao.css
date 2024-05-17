@@ -1,12 +1,31 @@
 .apresentacao{
     font-size: 4rem;
-    display: flexbox;
+    display: flex;
 
 }
 .texto_apr{
     text-align: center;
     margin-top: 29rem;
+    margin-left: auto;
+    margin-right: auto;
 }   
 .nome, .animacao{
     color: rgb(174, 0, 255);
+}
+.pc{
+    display:block;
+    margin-right: 0;
+    margin-left: 80rem;
+    margin-top: 20rem;
+    position: absolute;
+    height: 50rem;
+    width: 50rem;
+    background-color: rgb(103, 65, 138);
+    border-radius: 50%;
+}
+.pc img{
+    margin-top: 10rem;
+    height: 30rem;
+    width: 30rem;
+
 }
