@@ -13,8 +13,9 @@
     display: flex;
     justify-content: end;
     gap: 3rem;
+    margin-left: 13rem;
     margin-right: 2rem;
-    border-bottom: 2px solid;
+    border-bottom: 0.1px solid;
     
   }
   

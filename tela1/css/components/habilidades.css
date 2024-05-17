@@ -1,0 +1,21 @@
+.habi_titulo{
+    text-align: center;
+    margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width:30%;
+    background-color: white;
+    color: rgb(174, 0, 255);
+    border-radius: 40px;
+
+}
+.habilidades{
+    justify-content: center;
+    align-self: center;
+  
+}
+.habi_texto{
+    font-size: 2rem;
+    margin-left: 1rem;
+}

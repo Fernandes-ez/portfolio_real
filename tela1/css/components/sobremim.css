@@ -8,9 +8,9 @@
     width: 75%;
     font-size: 2rem;
     background-color: rgb(62, 49, 80);
-    border-radius: 20%;
+    border-radius: 10%;
     margin-left: 10%;
-    border: 10px solid;
+    border: 5px solid;
 
 }
 .sm_titulo{
@@ -39,7 +39,7 @@
 }
 .eu img{
     border-radius: 50%;
-    border: 10px solid rgb(62, 49, 80);
+    border: 5px solid rgb(255, 255, 255);
     height: 35rem;
     width: 35rem;
     transition: transform 0.5s ease;
