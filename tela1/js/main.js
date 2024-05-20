@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var sobreMimLink = document.querySelector('a[href="#sobre-mim"]');
+    var sobreMimLink = document.querySelector('a[href="#eu"]');
     if (sobreMimLink) {
         sobreMimLink.addEventListener("click", function(event) {
             event.preventDefault(); // Evita o comportamento padrão do link
-            var sobreMimElement = document.getElementById("sobre-mim");
+            var sobreMimElement = document.getElementById("eu");
             sobreMimElement.scrollIntoView({ behavior: "smooth" }); // Rola suavemente até o elemento "Sobre mim"
         });
     }

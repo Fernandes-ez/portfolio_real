@@ -1,6 +1,7 @@
 .habi_titulo{
     text-align: center;
-    margin-top: 1rem;
+    font-size: 2rem;
+    margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -11,19 +12,36 @@
 
 }
 .habilidades{
-    height: 40rem;
+    height: 25rem;
     width: 100%;
     background-color: rgb(62, 49, 80);
-    margin-top: 20rem;
+    margin-top: 15rem;
     border-top: solid 5px;
     border-bottom: solid 5px;
+    font-size: 1rem;
 }
 .habi_texto{
-    font-size: 2rem;
     margin-left: 1rem;
-    margin-top: 5rem
+    margin-top: 10vh;
    
 }
+.icons{
+    margin-left: 0;
+}
+.icons ul li{
+    display: inline-block;
+    justify-content: space-between;
+    transition: transform 0.5s ease;
+    width: 10%;
+    margin-top: 10vh;
+    padding: 2vh;
+    margin-left: 7vh;
+}
+.icons li:hover{
+    transform: scale(1.1);
+}
 .icons i {
-
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
 }
