@@ -1,59 +1,106 @@
-.navbar {
-    font-size: 1.5rem;
-    color: aliceblue;
-    width: 100%;
-    height: 8rem;
-    position:absolute;
-    top: 3rem;
-    justify-content: end;
-  }
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: end;
-    gap: 3rem;
-    margin-left: 13rem;
-    margin-right: 2rem;
-    border-bottom: 0.1px solid;
-    padding-bottom: 2px;
-    
-  }
+  height: 8vh;
+  font-size: 1rem;
+  padding: 0 2vw;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+.nav-list li{
+  letter-spacing: 3px;
+  margin-left: 32px;
+  margin-right: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: start;
+  height: 100px;
+  width: 100px;
+  right: 50%;
+  margin-top: 3rem;
+}
+.logo img{
   
-  .nav__itens a {
-    position: relative;
-    padding:  20px;
-    color: rgb(174, 0, 255);
+}
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: white;
+  margin: 8px;
+}
+.nav-list a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.nav-list a:after{
+  content: "";
+  background-color: #AE00FF;
+  width: 0;
+  left: 0;
+  bottom: 5.6rem;
+  transition: 0.5s;
+}
+.nav-list a:hover{
+  transition: 0.5s;
+  color: #AE00FF;
+}
+@media (max-width: 999px){
+  body{
+    overflow-x:hidden ;
   }
-  
-  .nav__itens a:after {
-    content: "";
+  .nav-list{
     position: absolute;
-    top:3rem;
-    background-color: rgb(174, 0, 255);
-    height: 3px;
-    width: 0;
-    left: 0;
-    transition: 0.5s;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: rgb(62, 49, 80);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
   }
-  
-  .nav__itens a:hover {
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
+  .nav-list li{
+    margin-left: 0;
+    opacity: 0;
   }
-  
-  .nav__itens a:hover:after {
-    width: 100%;
+  .mobile-menu{
+    display: block;
   }
-  .logo{
-    margin-left: 0px;
-    height: 0px;
-    width: 0px;
-    top: 0;
+}
+.nav-list.active{
+  transform:translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
   }
-  .logo img{
-    height: 150px;
-    width: 150px;
-    margin-left: 50px;
-    margin-top: -2.5rem;
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}

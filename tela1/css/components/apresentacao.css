@@ -5,9 +5,10 @@
 }
 .texto_apr{
     text-align: center;
-    margin-top: 29rem;
+    margin-top: 18%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 3rem;
 }   
 .nome, .animacao{
     color: rgb(174, 0, 255);

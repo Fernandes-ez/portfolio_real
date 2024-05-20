@@ -3,7 +3,7 @@
     src: url(/tela1/assets/fonts/BubblegumSans-Regular.ttf);
 }
 body{
-    background-color: rgb(42, 13, 54);
+    background-color: rgb(28, 28, 29);
     letter-spacing: 0.5px;
     font-size: 4rem;
     font-family: "bubblegum";
@@ -11,11 +11,13 @@ body{
 }
 *{
     color: aliceblue;
+    margin: 0;
+    padding: 0;
 }
 .bubblegum-sans-regular {
     font-family: "Bubblegum Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+ 
 
