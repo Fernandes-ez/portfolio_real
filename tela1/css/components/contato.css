@@ -47,8 +47,11 @@
     color: white;
     padding: 20px;
     border-radius: 10px;
+    text-decoration: none;
 }
 .formas_ctt ul li{
-    font-style: none;
+    font-style:normal;
+
     text-decoration: none;
+    list-style: none;
 }

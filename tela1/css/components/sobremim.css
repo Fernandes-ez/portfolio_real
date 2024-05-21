@@ -1,7 +1,7 @@
 .sobre_mim{
     border-top: 1px solid;
     border-top-color:rgb(28, 28, 29);
-    font-size: 1rem;
+    font-size: 1.2rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -9,7 +9,6 @@
 
 }
 .sm_titulo{
-    text-align: center;
     color: rgb(174, 0, 255);
     border-radius: 40px;
     height:fit-content;
@@ -21,20 +20,20 @@
     margin-top: 4vh;
 }
 .sm_texto{
-    margin-top: 1.5rem;
-    width: 80%;
-    margin-left: 10%
+    margin-top: 8vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tudo_sm{
-    display: inline;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .eu{
     width: 50vh;
-    margin-left: 35%;
-    margin-top: 10vh; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh; 
 
 }
 .eu img{
@@ -47,10 +46,7 @@
 .eu:hover img{
     transform: scale(1.1);
 }
-.peloamordedeus{
-    display: fl;
-    grid-template-columns:1fr 1fr ;
-}
+
 .link{
     transition: transform 0.5s ease;
     text-decoration-line:underline ;
