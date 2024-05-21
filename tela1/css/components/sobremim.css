@@ -2,11 +2,8 @@
     border-top: 1px solid;
     border-top-color:rgb(28, 28, 29);
     font-size: 1.2rem;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     width: 100%;
-
 }
 .sm_titulo{
     color: rgb(174, 0, 255);
@@ -30,7 +27,7 @@
 }
 
 .eu{
-    width: 50vh;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8vh; 
