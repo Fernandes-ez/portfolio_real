@@ -1,7 +1,7 @@
 .habi_titulo{
     text-align: center;
     font-size: 2rem;
-    margin-top: 3%;
+    margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -21,12 +21,13 @@
     font-size: 1.5rem;
 }
 .habi_texto{
-    margin-left: 2rem;
-    margin-top: 5%;
+    margin-left: 1rem;
+    margin-top: 10vh;
    
 }
 .icons{
-    margin-left: 0;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .icons ul li{
     display: inline-block;
@@ -35,7 +36,7 @@
     width: 10%;
     margin-top: 10vh;
     padding: 2vh;
-    margin-left: 11vh;
+    margin-left: 7vh;
 }
 .icons li:hover{
     transform: scale(1.1);
