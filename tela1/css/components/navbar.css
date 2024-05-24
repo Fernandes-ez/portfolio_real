@@ -36,21 +36,44 @@ nav{
   height: 2px;
   background-color: white;
   margin: 8px;
+}.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
-.nav-list a{
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
 
+.nav-list li {
+  margin: 0 15px;
+  position: relative;
 }
-.nav-list a:after{
-  content: "";
-  background-color: #AE00FF;
-  width: 0;
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0 10px;
+  position: relative;
+}
+
+.nav-list a::after {
+  content: '';
+  position: absolute;
   left: 0;
-  bottom: 5.6rem;
-  transition: 0.5s;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  color: #AE00FF;
+  background-color: rgb(174, 0, 255);
+  transition: width 0.4s ease-in-out;
 }
+
+.nav-list a:hover::after {
+  width: 100%;
+}
+
 .nav-list a:hover{
   transition: 0.5s;
   color: #AE00FF;

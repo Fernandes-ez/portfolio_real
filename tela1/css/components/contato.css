@@ -16,8 +16,8 @@
 }
 .cont_texto{
     flex: 1;
-    font-size: 1.5rem;
-    margin-top: 15%;
+    font-size: 2rem;
+    margin-top: 10%;
     margin-left: 10%;
     width: 30%;
 }
@@ -30,7 +30,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid w;
     padding: 20px;
 }
 
@@ -40,18 +39,21 @@
 
 .formas_ctt {
     font-size: 2rem;
+    margin-top: 10%;
     margin-right: 5%;
     text-align: center;
-    width: 40%;
+    width: 30%;
     background-color: rgb(62, 49, 80);
     color: white;
     padding: 20px;
     border-radius: 10px;
-    text-decoration: none;
 }
 .formas_ctt ul li{
-    font-style:normal;
-
-    text-decoration: none;
+    display: inline;
     list-style: none;
+    font-size: 3rem;
+}
+.bibi{
+    width: 3rem;
+    height: 3rem;
 }
