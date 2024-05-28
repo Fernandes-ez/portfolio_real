@@ -2,7 +2,6 @@
     border-top: 1px solid;
     border-top-color:rgb(28, 28, 29);
     font-size: 1.2rem;
-    text-align: center;
     width: 100%;
 }
 .sm_titulo{
@@ -11,12 +10,14 @@
     height:fit-content;
     width: 30%;
     background-color: rgb(236, 236, 236);
+    text-align: center;
     font-size: 2rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4vh;
 }
 .sm_texto{
+    text-align: center;
     margin-top: 8vh;
     width: 50%;
     margin-left: auto;
@@ -61,4 +62,33 @@
 }
 .link::after{
     background-color:rgb(174, 0, 255) ;
+}
+@media (min-width:320px),(max-width: 415px){
+.sobre_mim{
+    margin-top: 0;
+}    
+.sm_titulo{
+    font-size: 1.5rem;
+}
+.sm_texto{
+    font-size: 1rem;
+    width: 80%;
+}
+.eu img{
+    width: 200px;
+    height: 200px;
+}
+.eu{
+    height: auto;
+    width:  100%;
+}
+}
+@media (min-width: 415px){
+.sm_texto{
+    width: 60%;
+}
+.eu img{
+    width: 300px;
+    height: 300px;
+}
 }

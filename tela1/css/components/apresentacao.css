@@ -13,20 +13,18 @@
 .nome, .animacao{
     color: rgb(174, 0, 255);
 }
-.pc{
-    display:block;
-    margin-right: 0;
-    margin-left: 80rem;
-    margin-top: 20rem;
-    position: absolute;
-    height: 50rem;
-    width: 50rem;
-    background-color: rgb(103, 65, 138);
-    border-radius: 50%;
-}
-.pc img{
-    margin-top: 10rem;
-    height: 30rem;
-    width: 30rem;
 
+@media (min-width:320px),(max-width: 415px){
+    .texto_apr{
+        margin-top: 50%;
+        line-height: 20px;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 415px){
+    .texto_apr{
+        margin-top: 18%;
+        line-height: 45px;
+        font-size: 3rem;
+    }
 }

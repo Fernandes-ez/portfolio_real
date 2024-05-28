@@ -12,7 +12,7 @@
 
 }
 .habilidades{
-    height: 25rem;
+    height: max-content;
     width: 100%;
     background-color: rgb(62, 49, 80);
     margin-top: 15rem;
@@ -45,4 +45,47 @@
     font-size: 4rem;
     display: flex;
     justify-content: space-between;
+}
+@media (min-width:320px),(max-width: 415px){
+
+    .habi_titulo{
+        font-size: 1.5rem;
+        width: 40%;
+        margin-top: 3vh;
+    }
+    .habi_texto{
+        font-size: 1rem;
+        margin-top: 5vh;
+    }
+    .icons i{
+        font-size: 2rem;
+
+    }
+    .icons ul li{
+        margin-top: 2vh;
+        width: 20%;       
+    }
+}
+@media (min-width: 416px),(max-width: 768px){
+    .habilidades{
+        margin-top: 15rem;
+    }
+    .habi_titulo{
+        font-size: 1.5rem;
+        width: 40%;
+        margin-top: 3vh;
+    }
+    .habi_texto{
+        font-size: 1rem;
+        margin-top: 5vh;
+    }
+    .icons i{
+        font-size: 3rem;
+
+    }
+    .icons ul li{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 20%;       
+    }
 }

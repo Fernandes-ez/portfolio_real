@@ -47,13 +47,77 @@
     color: white;
     padding: 20px;
     border-radius: 10px;
+    
 }
 .formas_ctt ul li{
     display: inline;
     list-style: none;
     font-size: 3rem;
 }
-.bibi{
+#bibi{
+    opacity: 0.9;
+    margin-top: 2vh;
+    margin-left: auto;
     width: 3rem;
     height: 3rem;
+}
+@media (min-width:320px),(max-width: 415px){
+    .contato{
+        width: 100%;
+        height: 100%;        
+    }
+    .cont_titulo{
+        font-size: 1.5rem;
+        width: 40%;
+        margin-top: 3vh;
+    }
+    .cont_texto{
+        font-size: 1.5rem;
+        margin-top: 5vh;
+    }
+    .formas_ctt{
+        font-size: 1rem;
+        margin-top: 5vh;
+        margin-right: 0 ;
+        margin-left: 1rem;
+        width: 50%;
+    }
+    .formas_ctt ul li{
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+    #bibi{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media (min-width: 415px){
+    .contato{
+        width: 100%;
+        height: 100%;        
+    }
+    .cont_titulo{
+        font-size: 2rem;
+        width: 30%;
+        margin-top: 5vh;
+    }
+    .cont_texto{
+        font-size: 2rem;
+        margin-top: 10vh;
+    }
+    .formas_ctt{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 30%;
+    }
+    .formas_ctt ul li{
+        font-size: 3rem;
+        margin-left: 0;
+    }
+    #bibi{
+        width: 3rem;
+        height: 3rem;
+    }
 }
