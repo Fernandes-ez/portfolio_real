@@ -19,7 +19,7 @@
 .sm_texto{
     text-align: center;
     margin-top: 8vh;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -84,11 +84,16 @@
 }
 }
 @media (min-width: 415px){
+    .sm_titulo{
+    font-size: 2.5rem;
+    width: 20%;
+    }
 .sm_texto{
-    width: 60%;
+    width: 50%;
+    font-size: 2rem;
 }
 .eu img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 }
