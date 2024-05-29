@@ -65,7 +65,7 @@
 }
 @media (min-width:320px),(max-width: 415px){
 .sobre_mim{
-    margin-top: 0;
+    height: fit-content;
 }    
 .sm_titulo{
     font-size: 1.5rem;
@@ -74,13 +74,15 @@
 .sm_texto{
     font-size: 1rem;
     width: 80%;
+    height: 20vh;
+    margin-top: 5vh;
 }
 .eu img{
     width: 200px;
     height: 200px;
 }
 .eu{
-    height: auto;
+    height: 100%;
     width:  100%;
 }
 }
@@ -91,6 +93,7 @@
     }
 .sm_texto{
     width: 50%;
+    margin-top: 5vh;
     font-size: 2rem;
 }
 .eu img{
