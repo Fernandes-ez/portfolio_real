@@ -57,14 +57,14 @@
 #bibi{
     opacity: 0.9;
     margin-top: 2vh;
-    margin-left: auto;
     width: 3rem;
     height: 3rem;
 }
 @media (min-width:320px),(max-width: 415px){
     .contato{
         width: 100%;
-        height: 100%;        
+        height: 100%;    
+        margin-top: 20vh;    
     }
     .cont_titulo{
         font-size: 1.5rem;
@@ -91,7 +91,7 @@
         height: 2rem;
     }
 }
-@media (min-width: 415px){
+@media (min-width: 425px){
     .contato{
         width: 100%;
         height: 100%;        
@@ -109,16 +109,17 @@
         font-size: 2rem;
         margin-top: 18vh;
         margin-right: 5%;
-        margin-left: 5%;
+        margin-left: 0%;
         width: 30%;
     }
     .formas_ctt ul li{
         font-size: 3rem;
-        margin-left: 0;
+
     }
     #bibi{
         width: 3rem;
         height: 3rem;
-        margin-left: 10px;
+        margin-left: 0;
+        margin-right: auto;
     }
 }

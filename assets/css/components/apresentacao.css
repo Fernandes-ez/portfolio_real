@@ -16,18 +16,18 @@
     color: rgb(174, 0, 255);
 }
 
-@media (min-width:320px),(max-width: 415px){
+@media (min-width:320px),(max-width: 425px){
     .texto_apr{
-        margin-top: 30vh;
-        line-height: 20px;
-        font-size: 1.5rem;
+        margin-top: 35vh;
+        font-size: 2rem;
+        line-height: 1.2;
     }
 }
-@media (min-width: 415px){
+@media (min-width: 725px){
     .texto_apr{
         margin-top: 18%;
-        line-height: 45px;
         font-size: 3rem;
+        line-height: normal;
     }
 }
 
