@@ -8,6 +8,7 @@ body{
     font-size: 4rem;
     width: 100vw;
     font-family: "bubblegum";
+    overflow-x: hidden;
 
 }
 html{

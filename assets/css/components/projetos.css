@@ -1,5 +1,6 @@
 .projetos{
-    font-size: 2rem;
+    height: 100vh;
+    width: 100%;
 }
 .proj_titulo{
     height: fit-content;
@@ -55,18 +56,22 @@
 }
 @media (min-width:320px),(max-width: 415px){
     .projetos{
-        margin-top: 50vh;
     }
     .proj_titulo{
         font-size: 1.5rem;
         width: 40%;
-        margin-top: 3vh;
     }
 }
 @media (min-width:415px){
+    .projetos{
+        font-size: 2rem;
+        margin-top: 25rem;
+    }
     .proj_titulo{
         font-size: 2.5rem;
         width: 25%;
-        margin-top: 3vh;
+    }
+    .proj_box{
+
     }
 }
