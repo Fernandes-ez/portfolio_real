@@ -115,12 +115,12 @@
     .eu{  
     width: 50%;
     display: inline-block;
+    margin-top: 8%;
 }
-.eu img{
-    width: 400px;
-    height: 400px;
-    margin-left: 25%;
-    margin-top: 25%;
+    .eu img{
+        width: 400px;
+        height: 400px;
+        margin-left: 25%;
 }
 .caixa_sm{
     height: fit-content;
