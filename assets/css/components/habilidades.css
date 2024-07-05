@@ -24,7 +24,7 @@
 .icons li:hover{
     transform: scale(1.1);
 }
-@media (min-width: 768px),(max-width: 2560px){
+@media (min-width: 426px),(max-width: 2560px){
     .habilidades{
         margin-top: 25rem;
         height: fit-content;
@@ -33,14 +33,18 @@
         box-shadow: rgba(73, 18, 124, 0.56) 0px 22px 70px 4px;
     }
     .habi_titulo{
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 0%;
     }
     .habi_texto{
-        font-size: 2rem;
+        font-size: 5rem;
         margin-top: 5vh;
         margin-left: 5vh;
     }
+    .icons{
+        width: 100%;
+        margin-left: auto;
+        }
     .icons ul li{
         margin-bottom: 2vh;
         width: 100%;       
@@ -48,7 +52,7 @@
         padding: 2vh;
     }
     .icons li i{
-        font-size: 5rem;      
+        font-size: 5rem;
     }
 }
 
@@ -75,7 +79,7 @@
         font-size: 2.5rem;
     }
     .icons ul li{
-        margin-top: 0.5vh;
+        margin-top: 0.5vh;    
         margin-bottom: 2vh;
         width: 20%;       
     }
